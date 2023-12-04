@@ -5,6 +5,6 @@ if(isset($_SESSION['name']))
 {
     unset($_SESSION['name']);
 }
-header("Location: login.php");
+header("Location: admin_options.php");
 ?>
 
