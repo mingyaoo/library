@@ -15,7 +15,7 @@
         <a class="navbar-brand" href="#">Library Database</a>
         </div>
         <ul class="nav navbar-nav">
-        <li class="active"><a href="adminshowoptions.php">admins</a></li>
+        <li><a href="adminshowoptions.php">admins</a></li>
         <li><a href="studentshowoptions.php">students</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
