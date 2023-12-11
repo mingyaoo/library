@@ -19,5 +19,8 @@
         </select>
         <input type="submit" value="Search author">
     </form>
+    <form action="mainpage.php"  method = "post">
+        <input type="submit" value="back to home">
+    </form>
 </body>
 </html>

@@ -30,6 +30,9 @@
     }
 
     ?>
+    <form action="mainpage.php"  method = "post">
+        <input type="submit" value="back to home">
+    </form>
 
     
 </body>

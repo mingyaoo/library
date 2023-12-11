@@ -24,32 +24,10 @@
         </ul>
     </div>
     </nav>
-    <?php
-    session_start(); 
-    $_SESSION['backURL'] = $_SERVER['REQUEST_URI'];
-    if (!isset($_SESSION['name']))
-    {   
-        header("Location:login.php");
-    }
-    ?>
-        
-    <form action="books.php"  method = "post">
-        <input type="submit" value="add books">
-    </form>
-    <form action="users.php"  method = "post">
-        <input type="submit" value="add users">
-    </form>
-    <form action="admin.php"  method = "post">
-        <input type="submit" value="admin reports">
-    </form>
-    <form action="return.php"  method = "post">
-        <input type="submit" value="return a book">
-    </form>
-    <form action="mainpage.php"  method = "post">
-        <input type="submit" value="mainpage">
-    </form>
 
-</form>
-</body>
+
+
+
+ </body>
 </html>
 

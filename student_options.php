@@ -6,7 +6,7 @@
 <body>
 
     <form action="studentshowoptions.php"  method = "post">
-    Admin:<select name="studentname">
+    Student:<select name="studentname">
     <?php
         include_once('connection.php');
         $stmt = $conn->prepare("SELECT * FROM TblUsers WHERE role=0 ORDER BY Surname ASC");

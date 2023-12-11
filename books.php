@@ -25,5 +25,9 @@
     echo($row["Bookname"].' - '.$row["Bookauthor"]."<br>");
     }
     ?>
+    <form action="mainpage.php"  method = "post">
+        <input type="submit" value="back to home">
+    </form>
+
 </body>
 </html>
