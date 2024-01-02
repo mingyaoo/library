@@ -25,7 +25,7 @@ $stmt = $conn->prepare("DROP TABLE IF EXISTS TblBorrow;
 CREATE TABLE TblBorrow 
 (UserID INT(4),
 BookID INT(4),
-Date_borrowed DATE,
+due_date DATE,
 PRIMARY KEY(BookID,UserID))");
 $stmt->execute();
 $stmt->closeCursor();
